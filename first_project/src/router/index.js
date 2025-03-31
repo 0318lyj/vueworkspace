@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 //컴포넌트 추가 2) 페이지 단위로 호출
 import DataBinding from '@/views/DataBinding.vue'
 import ListBinding from '@/views/ListBinding.vue'
+import IfBinding from '@/views/IfBinding.vue';
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     path:'/ListBinding',
     name: 'listBind',
     component : ListBinding
+  },
+  {
+    path : '/ifBinding',
+    name : 'ifBind',
+    component : IfBinding
   }
 ];
 
