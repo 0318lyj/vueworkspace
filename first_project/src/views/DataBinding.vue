@@ -6,11 +6,8 @@
      <h1>{{ title }}</h1>
      <!-- directive : Vue의 명령 수행, 'v-' 접두어 사용 -->
     <h2 v-text="title" id = "home"></h2>
-
     <p v-html="tagList"></p>
-
     <p v-text="tagList" v-bind:name="tagName"></p>
-
     <!-- v-bind 디렉티브 : 단방향 바인딩 -->
     <!-- v-model 디렉티브 : 양방향 바인딩 -->
     <input type="text" v-model = "valueModel">
